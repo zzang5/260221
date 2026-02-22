@@ -16,7 +16,10 @@ col1, col2 = st.columns([1, 2], vertical_alignment="center")
 with col1:
     # 본인의 사진 파일명으로 변경하세요 (예: 'profile.jpg')
     # 사진이 없다면 placeholder 이미지를 사용합니다.
-    st.image("https://via.placeholder.com/150", width=150) 
+    #st.image("https://via.placeholder.com/150", width=150) 
+     st.image("https://i.namu.wiki/i/_HHTYdKOuG6QdskbyW5ZwepiZw3mplg47y7mA21SEezw96xd2hrzF-JY2euBBKOBRky8Jv4Rb1qv0My_t0U1VQ.webp", 
+             caption="나를 나타내는 사진",
+             use_container_width=True)
 
 with col2:
     st.title("안녕하세요, 홍길동입니다!")
